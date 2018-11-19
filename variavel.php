@@ -4,9 +4,10 @@ $nomeDaVariavel;
 $_13;
 
 $Usuario = "Joao";
-$usuario = "Jose";.
+$usuario = "Jose";
 
 echo $Usuario;
+echo "<br>";
 echo $usuario;
 
  ?>
