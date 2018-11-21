@@ -7,19 +7,16 @@
 <body>
 	<form action="contato.php" method="post">
 		<label for="nome">Nome</label><input type="text" name="nome" id="nome"><br />		
-		<label for="email">Email</label><input type="text" name="email" id="email"><br />		
-		<label for="password">Password</label><input type="password" name="password" id="password">	<br />	
-		<label for="opcao1">Opt1</label><input type="checkbox" name="nome" value="um" id="opcao1"><br /><br />	
-		<label for="opcao2">Opt2</label><input type="checkbox" name="nome" value="dois" id="opcao2"><br />
-		<input type="radio" value="um">		
-		<input type="radio" value="dois">		
-		<input type="hidden" name="nome">		
-		<input type="submit" name="nome">
-		<select name="stado">
-			<option value="PR">Parana</option>
-			<option value="SP">Sao Paulo</option>
-		</select>
-		<textarea name="mensagem" cols="40" rows="10"></textarea>		
+		<label for="email">Email</label><input type="text" name="email" id="email"><br />
+		Selecionwe para quem quer enviar:
+		<select name="area" >
+			<option value="vendas">Vendas</option>
+			<option value="suporte">Suporte</option>
+		</select><br />
+		MENSAGEN<br />		
+		<textarea name="mensagem" cols="40" rows="10"></textarea>
+		<br />
+		<input type="submit" value="Enviar">		
 	</form>
 </body>
 </html>
