@@ -35,20 +35,20 @@ $meses = array(
             'Novembro',
             'Dezembro',
         );
-/*$dados_pessoais = array(
+$dados_pessoais = array(
                         'nome' => 'André', 
                         'sobrenome' => 'Pfeiffer', 
                         'sexo' => 'masculino', 
                         'email' => 'andre@pfeiffer.com.br',
                         'telefone' => null
                 );
-*/
+
 
 echo count($meses);
 
 echo '<br><hr><br>';
 
-/*if(in_array('Janeiro', $meses)){
+if(in_array('Janeiro', $meses)){
     echo 'achei!';
 }else{
     echo 'não achei!';
@@ -90,5 +90,3 @@ echo '<br>';
 echo $fevereiro;
 echo '<br>';
 echo $maio;
-
-*/
